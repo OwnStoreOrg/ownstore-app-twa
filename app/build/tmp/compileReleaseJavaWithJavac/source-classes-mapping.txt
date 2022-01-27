@@ -1,0 +1,8 @@
+app/own_store_demo/twa/LauncherActivity.java
+ app.own_store_demo.twa.LauncherActivity
+app/own_store_demo/twa/BuildConfig.java
+ app.own_store_demo.twa.BuildConfig
+app/own_store_demo/twa/Application.java
+ app.own_store_demo.twa.Application
+app/own_store_demo/twa/DelegationService.java
+ app.own_store_demo.twa.DelegationService

@@ -1,0 +1,4 @@
+#Thu Jan 27 19:03:19 IST 2022
+base.0=/Users/faiyazshaikh/Projects/Personal/own-store/own-store-twa/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

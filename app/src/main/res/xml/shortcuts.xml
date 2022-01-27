@@ -1,0 +1,10 @@
+<shortcuts xmlns:android='http://schemas.android.com/apk/res/android'>
+    <shortcut android:shortcutId='shortcut0' android:enabled='true' android:icon='@drawable/shortcut_0' android:shortcutShortLabel='@string/shortcut_short_name_0' android:shortcutLongLabel='@string/shortcut_name_0'>
+        <intent android:action='android.intent.action.MAIN' android:targetPackage='app.own_store_demo.twa' android:targetClass='app.own_store_demo.twa.LauncherActivity' android:data='https://own-store-demo.vercel.app/search?utm_source=pwa&amp;utm_medium=shortcut' />
+        <categories android:name='android.intent.category.LAUNCHER' />
+    </shortcut>
+    <shortcut android:shortcutId='shortcut1' android:enabled='true' android:icon='@drawable/shortcut_1' android:shortcutShortLabel='@string/shortcut_short_name_1' android:shortcutLongLabel='@string/shortcut_name_1'>
+        <intent android:action='android.intent.action.MAIN' android:targetPackage='app.own_store_demo.twa' android:targetClass='app.own_store_demo.twa.LauncherActivity' android:data='https://own-store-demo.vercel.app/catalogue?utm_source=pwa&amp;utm_medium=shortcut' />
+        <categories android:name='android.intent.category.LAUNCHER' />
+    </shortcut>
+</shortcuts>

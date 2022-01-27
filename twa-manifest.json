@@ -1,0 +1,55 @@
+{
+  "packageId": "app.own_store_demo.twa",
+  "host": "own-store-demo.vercel.app",
+  "name": "OwnStore Demo",
+  "launcherName": "OwnStoreDemo",
+  "display": "standalone",
+  "themeColor": "#CE2E35",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#FFFFFF",
+  "enableNotifications": true,
+  "startUrl": "/?utm_source=pwa&utm_medium=homescreen",
+  "iconUrl": "https://own-store-demo.vercel.app/images/logos/windows11/SplashScreen.scale-400.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "/Users/faiyazshaikh/Projects/Personal/own-store/own-store-twa/android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "Search",
+      "shortName": "Search",
+      "url": "https://own-store-demo.vercel.app/search?utm_source=pwa&utm_medium=shortcut",
+      "chosenIconUrl": "https://own-store-demo.vercel.app/images/logos/android-icon-192x192.png"
+    },
+    {
+      "name": "Catalogues",
+      "shortName": "Catalogues",
+      "url": "https://own-store-demo.vercel.app/catalogue?utm_source=pwa&utm_medium=shortcut",
+      "chosenIconUrl": "https://own-store-demo.vercel.app/images/logos/android-icon-192x192.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://own-store-demo.vercel.app/json/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "orientation": "portrait",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "1"
+}
